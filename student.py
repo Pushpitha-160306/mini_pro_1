@@ -1,3 +1,4 @@
+# creating dictionary
 students = {} 
  
 def add_student(): 
@@ -8,7 +9,7 @@ def add_student():
  
 def view_students(): 
     for roll, info in students.items(): 
-        print(f"Roll: {roll}, Name: {info['name']}, Marks: 
+        print(f"Roll: {roll}, Name: {info['name']}, Marks:
 {info['marks']}") 
  
 while True: 
